@@ -1,5 +1,5 @@
  
-console.log("Welcome to notes app. This is app.js");
+console.log("Welcome to notes app.");
 showNotes();
 
 // If user adds a note, add it to the localStorage
@@ -42,7 +42,7 @@ function showNotes() {
   if (notesObj.length != 0) {
     notesElm.innerHTML = html;
   } else {
-    notesElm.innerHTML = `Nothing to show! Use "Add a Note" section above to add notes.`;
+    notesElm.innerHTML = `Nothing to show! Use "Add Note" section above to add a new note.`;
   }
 }
 
